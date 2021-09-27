@@ -1,0 +1,35 @@
+create DATABASE annonce;
+execute
+use annonce;
+execute
+
+
+CREATE TABLE annonces (
+  id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    ID_user int,
+    categorie varchar(255),
+    ville  varchar(255),
+    zone varchar(255),
+    adresse varchar(255),
+    code_postale int(10),
+    nom varchar(255),
+    telephone varchar(255),
+    email varchar(255),
+    prix int(10),
+    type_prix varchar(255),
+    transacssion varchar(255),
+    conditione varchar(255),
+    titre varchar(255),
+    discription text,
+    image varchar(255)
+    
+    
+    
+    
+    );
+execute
+
+
+
+
+
